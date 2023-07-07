@@ -12,5 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "compression": "^1.7.4",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0"
   }
 }
