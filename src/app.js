@@ -5,7 +5,7 @@ const {default : helmet} = require('helmet')
 const morgan = require('morgan')
 const app = express()
 
-console.log(process.env)
+//console.log(process.env)
 
 //init middlewares
 app.use(morgan("dev"))
